@@ -80,6 +80,11 @@ function acf_field_pro_register_required_plugins() {
 			'slug' => 'theme-check',
 			'required' => false,
 		),
+		array(
+			'name' =>  esc_html__( 'Password Protected', 'ibryl_themes' ),
+			'slug' => 'password-protected',
+			'required' => false,
+		),
 		// This is an example of how to include a plugin bundled with a theme.
 		array(
 			'name'               => 'Advanced Custom Fields Pro', // The plugin name.
