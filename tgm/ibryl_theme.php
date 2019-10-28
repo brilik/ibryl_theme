@@ -81,6 +81,11 @@ function acf_field_pro_register_required_plugins() {
 			'required' => false,
 		),
 		array(
+			'name' =>  esc_html__( 'Yandex Map for ACF', 'ibryl_themes' ),
+			'slug' => 'map-for-acf',
+			'required' => false,
+		),
+		array(
 			'name' =>  esc_html__( 'Password Protected', 'ibryl_themes' ),
 			'slug' => 'password-protected',
 			'required' => false,
